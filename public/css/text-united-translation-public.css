@@ -1,0 +1,179 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .header-menu-sidebar .menu-item-tu1 ul,.menu-modal .menu-item-tu1 ul{
+
+  width:100% !important;
+ }
+
+.menu-item-tu1 ul{
+   max-width:max-content !important;
+
+}
+
+
+#languageWidget{position: fixed;
+    right: 10px;
+    bottom: 30px;
+	z-index:999}
+ #languageWidget .dropbtn {
+    
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    background-image: url('../img/globe.png');
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+  }
+  
+  #languageWidget .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  #languageWidget .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #languageWidget .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 50px;
+    max-width: 180px;
+    width: max-content;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom:60px;
+    right:0px;
+  }
+  
+  #languageWidget .dropdown-content a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: block;
+    font-size:14px;
+  }
+  
+  #languageWidget .dropdown a:hover {background-color: #ddd;}
+  
+  #languageWidget .show {display: block;}
+
+#wp-admin-bar-tubar > .ab-item,.wp-has-submenu .dashicons-tu {
+  background-image: url("../img/logo-icon.png") !important;
+  background-size: 20px auto !important;
+  background-repeat: no-repeat !important;
+  background-position: 4px 5px !important;
+  padding-left: 25px !important; }
+  
+ .dashicons-tu {
+  background-image: url("../img/logo-icon.png") !important;
+  background-size: 20px auto !important;
+  background-repeat: no-repeat !important;
+  background-position: 4px 5px !important;
+  padding-left: 25px !important; }
+  
+  
+.Tudropdown {
+    position: relative;
+    display: inline-block;
+	background:#ffffff;
+	border:1px solid #e0e0e0;
+	padding:10px;
+	font-size:15px;
+	color:black;text-decoration:none;
+	position:relative;
+	min-width:180px;
+
+}
+.Tudropdown span{
+cursor:pointer
+}
+.nav-primary{z-index:9998 !important}
+.Tudropdown-menu a{display:block;color:black;text-decoration:none;padding:5px}
+.Tudropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    padding: 12px 16px;
+	left:0;
+    z-index: 9999;
+	bottom:40px
+}
+.flag-icon-squared {border-radius:50%;font-size:18px}
+
+ .TUarrow{
+ 	 white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width:160px;
+  display:block;
+  padding-right:20px
+ }
+  
+  .TUarrow .arrow {
+  cursor: pointer;
+  height:20px;
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 10px;
+}
+.arrow-top, .arrow-bottom {
+  background-color: #666;
+  height: 2px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.TUarrow .arrow-top:after,.TUarrow .arrow-bottom:after {
+  background-color: #cccccc;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s;
+}
+.TUarrow .arrow-top {
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+.TUarrow  .arrow-top:after {
+  left: 100%;
+  right: 0;
+  transition-delay: 0s;
+}
+.TUarrow .arrow-bottom {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+.TUarrow .arrow-bottom:after {
+  left: 0;
+  right: 100%;
+  transition-delay: 0.15s;
+}
+.TUarrow:hover > .arrow .arrow-top:after {
+  left: 0;
+  transition-delay: 0.15s;
+}
+.TUarrow:hover > .arrow  .arrow-bottom:after {
+  right: 0;
+  transition-delay: 0s;
+}
+.TUarrow .arrow:active {
+  transform: translateX(-50%) translateY(-50%) scale(0.9);
+}

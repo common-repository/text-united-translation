@@ -1,0 +1,87 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .ghost {
+    opacity: .5;
+    background: #C8EBFB;
+  }
+ .q-searchtut label{display:inline-block;margin-bottom:.5rem}
+  .column-language{width:15%;text-align:center}
+   #v-pills-tab {margin-top:25px}
+    #v-pills-tab .active{background:#ffffff;color:#666666;border-left:4px solid #5956d7;position:relative;left:2px;z-index:999}
+	#v-pills-tab .active .nav-link{border-top:2px solid #dddde3;border-radius:0px;border-bottom:2px solid #dddde3;color:#666666}
+	.text-united_page_text-united-translation-faq #wpcontent, .toplevel_page_text-united-translation-mainsettings #wpcontent,.text-united_page_text-united-translation-importer #wpcontent,.toplevel_page_text-united-translation-mainsettings  #wpcontent,.toplevel_page_text-united-translation-faq  #wpcontent{background:#eeeefb !important}
+	#v-pills-tab .nav-link{color:#666666;border:0px;border-radius:0px;}
+	#v-pills-tab .none{border-top:2px solid #eeeefb;border-bottom:2px solid #eeeefb;border-left:4px solid #eeeefb;border-top:2px solid #eeeefb;}
+	.contB{border:2px solid #dddde3 !important;}
+	.tab-pane .bars {margin-top:10px ;border-top:2px solid #dddde3;}
+	#v-pills-tabContent{margin-left:10px;margin-right:10px}
+	.accountLabel{border:1px solid #dddde3;border-radius:3px;padding:5px 10px}
+	.tab-pane{margin-bottom:30px}
+	#select2-TUdefaultLanguage-container,#select2-TUlanguagesAdd-container{background:#eeeefb}
+	.btn-primary{background-color:#1159d6 !important}
+	.sumbs{display:none}
+	.sumbs.active2{display:block;}
+	.sumbs  {margin-left:40px;font-size:13px;}
+	.sumbs  a {display:block;color:#666666 !important}
+	.sumbs .activeSub{color:#5956db !important;}
+	.sumbs  a:hover{color:#5956db !important;text-decoration:none}
+	.sumbs  a:focus{box-shadow: none !important;}
+	.loginBodyTu p{ font-size:18px;font-weight: 300;}
+	.loginBodyTu {border:2px solid #dddde3 !important;border-radius:3px !important}
+	.loginBodyTu input {background: #eeeefb !important;border: 1px solid #dddde3;}
+	.bgTu{background-color:#e8e8e8;color:#ffffff !important}
+	.modal-body-tu p{font-size:16px}
+	.text-united_page_text-united-translation-importer .form-control{
+	display: block;
+width: 100%;
+height: calc(1.5em + .75rem + 2px) !important;
+padding: .375rem .75rem !important;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5 !important;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    background-color: #fff;
+    color: #32373c;
+	}
+	 .dashicons-tu {
+  background-image: url("../img/logo-icon.png") !important;
+  background-size: 22px auto !important;
+  background-repeat: no-repeat !important;
+  background-position: 8px 5px !important;
+  padding-left: 5px !important; }
+
+     a[disabled="disabled"] {
+        pointer-events: none;
+    }
+	
+#v-pills-tab .nav-link:focus ,#v-pills-tab .nav-link:active{
+    border-radius:0px;
+	box-shadow: none !important;
+    outline:none; 
+}
+#my-list .dashicons{margin-top:1px}
+.sumbs{margin-bottom:20px}
+@media screen and (max-width:768px) {
+.formAdd{text-align:center;}
+.formAdd select{max-width:initial !important;margin: 10px 0px 10px 0px!important}
+.text-united_page_text-united-translation-importer .col{flex-basis:1 !important; flex-basis: auto!important}
+#my-list li{flex-flow:wrap !important; }
+#my-list li input{margin-bottom:10px !important;margin-top:10px !important}
+#my-list li input,#my-list li select{max-width:100% !important;margin:0px auto}
+.deviderTu{display:none;}
+.text-united_page_text-united-translation-faq .container .row,.text-united_page_text-united-translation-importer .container .row{margin:initial !important}
+}
+.grey{ -webkit-filter: grayscale(1); 
+                filter: grayscale(1); }
+.q-searchtut .select2-container--default .select2-search--inline .select2-search__field, #tu_language .select2-container--default .select2-search--inline .select2-search__field{display:none}				
